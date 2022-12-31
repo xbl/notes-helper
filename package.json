@@ -1,9 +1,9 @@
 {
   "name": "@xbl/notes-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "publish": "npm publish --access public"
-   },
+  },
   "main": "index.js",
   "bin": {
     "notes-helper": "index.js"
