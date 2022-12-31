@@ -1,8 +1,10 @@
 # notes-helper
 
-是使用 Nodejs 写的笔记小助手，在 Git 目录中自动同步到远端仓库的脚本工具。
+notes-helper 是使用 Nodejs 写的私人 Git 笔记小助手。
 
-*因为是用 Nodejs 写的，所以需要您已经安装了 Nodejs 环境。以后有空再用 Golang 或者 Rust 写个二进制文件体验可能会更好一点。*
+我常常苦恼现有的笔记软件要版本管理，又要支持 Markdown，还不希望受服务商的限制，于是别有了这个 notes-helper 脚本工具的想法。使用你喜欢的 Markdown 编辑器无论是 [typora](https://typora.io/) 、[Mark Text](https://marktext.app/) 还是 [vscode](https://code.visualstudio.com/)，都可以通过 notes-helper 在 Git 目录中自动同步到远端仓库（如：Github 、Gitlab等）。
+
+*因为是用 Nodejs 写的，所以需要您已经安装了 Nodejs 环境。以后有空再用 Golang 或者 Rust 写个二进制文件体验应该会更好一点。*
 
 
 
