@@ -6,7 +6,7 @@
 
 ## 创建配置文件
 
-在对应的 Git 目录中创建 `.note-helper.json` 
+在对应的 Git 目录中创建 `.notes-helper.json` 
 
 ```json
 {
@@ -24,5 +24,24 @@
 此处忽略了 git 初始化等操作。
 
 
+
+## 执行 notes-helper 命令
+
+方法一：使用 `npx`，在对应的目录执行如下命令
+
+```shell
+npx @xbl/notes-helper
+```
+
+
+
+方法二：全局安装
+
+```shell
+npm install -g @xbl/notes-helper
+
+# 在对应目录执行
+@xbl/notes-helper
+```
 
 

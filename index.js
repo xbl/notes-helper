@@ -10,7 +10,7 @@ const shell = require('shelljs');
 const notesFolder = cwd();
 console.log(`Current directory: ${notesFolder}`);
 
-const CONFIG_FILE_NAME = '.note-helper.json';
+const CONFIG_FILE_NAME = '.notes-helper.json';
 
 async function loadConfig (notesFolder) {
     const str = await fs.readFile(path.join(notesFolder, CONFIG_FILE_NAME));
