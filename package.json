@@ -1,0 +1,14 @@
+{
+  "name": "@xbl/notes-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "notes-helper": "index.js"
+  },
+  "author": "xbl <x_bl@sina.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "shelljs": "^0.8.5"
+  }
+}
