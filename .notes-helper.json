@@ -1,0 +1,8 @@
+{
+    "events": {
+        "addDir": "touch .gitkeep && git add . && git commit -m 'notes add folder' && git push",
+        "add": "git add . && git commit -m 'notes add file' && git push",
+        "change": "git add . && git commit -m 'notes change file' && git push",
+        "unlink": "git add . && git commit -m 'notes unlink' && git push"
+    }
+}
